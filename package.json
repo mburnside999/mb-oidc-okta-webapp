@@ -4,7 +4,8 @@
   "description": "OpenID Connect Handbook: Securing Regular Web Apps",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "devStart": "nodemon server.js"
   },
   "keywords": [
     "OpenID Connect",
